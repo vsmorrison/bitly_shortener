@@ -23,6 +23,21 @@ pip install -r requirements.txt
 GENERIC ACCESS TOKEN, токен необходимо поместить в предварительно созданный 
 файл `.env`, в переменную `token = 'your token value'`  
 
+### Как запустить
+
+Для запуска программы необходимо в командной строке выполнить команду:
+```
+python main.py http://link.com
+```
+Вместо link.com необходимо ввести свой URL.
+
+Пример запуска:
+```
+~/python main.py http://sports.ru
+http://bit.ly/2ZGh3KQ
+Количество кликов:  7
+```
+
 
 ### Цель проекта
 
